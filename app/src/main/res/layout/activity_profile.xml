@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="227dp">
+
+        <TextView
+            android:id="@+id/hometv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_home_black_24dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/graphtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="375dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_graphic_eq_black_24dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/mark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/circle_textview"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            app:fontFamily="@font/roboto_slab" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="279dp"
+                android:layout_height="0dp"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="65dp"
+                android:layout_weight="1"
+                android:text="BODY TEMERATURE"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="267dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:text="Condition"
+                android:textColor="#000"
+                android:textSize="20sp"
+                app:fontFamily="sans-serif-condensed-medium" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/sapidtv"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/et_style"
+        android:gravity="bottom"
+        android:textColor="#000"
+        android:textSize="18sp"
+        app:fontFamily="@font/roboto_slab" />
+
+    <TextView
+        android:id="@+id/bldtv"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/et_style"
+        android:textColor="#000"
+        android:textSize="18sp"
+        app:fontFamily="@font/roboto_slab" />
+
+    <TextView
+        android:id="@+id/allergytv"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/et_style"
+        android:textColor="#000"
+        android:textSize="18sp"
+        app:fontFamily="@font/roboto_slab" />
+
+    <TextView
+        android:id="@+id/conditiontv"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/et_style"
+        android:textColor="#000"
+        android:textSize="18sp"
+        app:fontFamily="@font/roboto_slab" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="105dp">
+
+        <Button
+            android:id="@+id/averagetv"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/temperaturebtns1"
+            android:text="AVERAGE"
+            android:textColor="#fff"
+            app:fontFamily="@font/roboto_slab"></Button>
+
+        <Button
+            android:id="@+id/maxtv"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/temperaturebtn2"
+            android:text="MAX"
+            android:textColor="#000"
+            app:fontFamily="@font/roboto_slab" />
+
+        <Button
+            android:id="@+id/mintv"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_marginLeft="265dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/temperaturebtn2"
+            android:text="MIN"
+            android:textColor="#000"
+            app:fontFamily="@font/roboto_slab" />
+
+
+    </RelativeLayout>
+</LinearLayout>

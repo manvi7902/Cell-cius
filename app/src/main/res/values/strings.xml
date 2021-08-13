@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Cell~cius</string>
+    <string name="Username"> Name: </string>
+    <string name="Password"> Sap_Id: </string>
+    <string name="btn_login">Login</string>
+    <string name="not_register">NOT REGISTER?</string>
+    <string name="register">REGISTER NOW!</string>
+    <string name="Regi">REGISTER</string>
+    <string name="Logi">LOGIN</string>
+    <string name="register_name">Enter your NAME: </string>
+    <string name="register_SapID">Enter your SAP_ID: </string>
+    <string name="register_email">Enter your EMAIL_ID: </string>
+    <string name="register_phone">Enter your PHONE NUMBER: </string>
+    <string name="btn_register">Register</string>
+    <string name="already_register">Already Registered?</string>
+    <string name="login">LOGIN NOW!</string>
+    <string name="help">Help us, know you better</string>
+    <string name="blood_grp">Blood Group: </string>
+    <string name="allergies">Do you have any allergies?</string>
+    <string name="heart_condition">Do you have any conditions/diseases?</string>
+    <string name="lifestyle">Are you habituated to drugs and alcohol?</string>
+    <string name="checkup">How often do you get a health checkup?</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="daily_data">Recording your todays temperature </string>
+    <string name="hello_name">Hello, name</string>
+    <string name="day">day</string>
+    <string name="todays_temperature">Todays Temperature:</string>
+
+</resources>
